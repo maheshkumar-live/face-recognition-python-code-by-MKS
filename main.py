@@ -19,7 +19,7 @@ for _ in images:
 
 print(known_names)
 
-test_image = "./test/test.jpg"
+test_image = "./test.jpg"
 image = cv2.imread(test_image)
 # image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 
